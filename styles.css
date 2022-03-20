@@ -1,0 +1,94 @@
+html, body {
+    display:flex;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-family: monospace;
+}
+
+.go-score{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pop-up{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+
+    border-radius: 20px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+}
+
+th{
+    text-align: left;
+}
+
+#game-over-pu{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+
+    border-radius: 20px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: none;
+}
+
+.pop-up-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pop-up-content h2{
+    text-align: center;
+
+}
+
+
+#img-container{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.pop-up-content img{
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.pop-up-content button{
+    background-color: brown;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.pop-up-content button:hover{
+    background-color: rgb(230, 4, 4);
+    transition: .3s;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>--CHANGE ME--</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="game"></canvas> 
+
+
+    <div id="pop-up">
+      <div class="pop-up-content">
+        <h2>[GAME NAME]</h2>
+        <div id="img-container">
+          <img src="./sprites/controller.png" alt="game image">
+        </div>
+        <button id="play-btn" onclick="playGame()">PLAY</button>
+      </div>
+    </div>
+
+    <div id="game-over-pu">
+        <div class="pop-up-content">
+                <img src="./sprites/gameover.png" alt="gameover png"/>
+                <h2 id="score-val">SCORE: 10</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>HI SCORE</th>
+                        <th>NAME</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="leader-1">
+                        <td>143847</td>
+                        <td>Kevin</td>
+                    </tr>
+                    <tr id="leader-2">
+                        <td>21453</td>
+                        <td>Steve</td>
+                    </tr>
+                    <tr id="leader-3">
+                        <td>143847</td>
+                        <td>Kevin</td>
+                    </tr>
+                    <tr id="leader-4">
+                        <td>143847</td>
+                        <td>Kevin</td>
+                    </tr>
+                    <tr id="leader-5">
+                        <td>143847</td>
+                        <td>Kevin</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="play-again-btn" onclick="playGame()">Play Again?</button>
+        </div> 
+    </div>
+    
+
+    <script src="./globals/constants.js"></script>
+    <script src="./globals/globals.js"></script>
+    <script src="./game.js"></script>
+</body>
+</html>
