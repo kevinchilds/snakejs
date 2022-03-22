@@ -9,7 +9,6 @@ class Apple{
 
         do {
             this.posX = this.randomNum(canvWidth)  
-            console.log(this.posX)
         } while (this.posX % snake.width != 0);
 
         do {

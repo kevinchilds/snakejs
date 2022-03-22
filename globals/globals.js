@@ -7,4 +7,5 @@ let gameOverPopUp  = document.getElementById("game-over-pu");
 let dpi = window.devicePixelRatio;
 let snake;
 let apple;
+let interval;
 
